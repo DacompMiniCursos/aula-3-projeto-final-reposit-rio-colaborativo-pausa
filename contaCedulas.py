@@ -10,6 +10,8 @@ while True:
         print(f"{cédulas} cédula(s) de R${atual}")
         if apagar == 0:
             break
+        elif atual == 200:
+            atual = 100
         elif atual == 100:
             atual = 50
         elif atual == 50:
